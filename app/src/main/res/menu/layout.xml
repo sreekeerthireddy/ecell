@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <item
+
+        android:id="@+id/team"
+        android:title="Team">
+    </item>
+    <item
+        android:id="@+id/events"
+        android:title="Events">
+
+    </item>
+    <item
+        android:id="@+id/alumni"
+        android:title="Alumini Connect"
+        />
+
+    <item
+
+        android:title="About us"
+        android:id="@+id/home"/>
+
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".about"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <ImageView
+                android:id="@+id/homelogo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ecell"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hometext"
+                android:text="E-Cell SASTRA"
+                android:layout_marginLeft="15dp"
+
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/mission"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="We at Entrepreneurship Cell, SASTRA firmly believe that entrepreneurship is the key for economic and nation's development. We are passionate about helping to build sustainable ventures and serve as a learning and support platform to minimize risk and maximize success in ventures."
+            android:layout_below="@id/homelogo"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textMultiLine"
+            android:gravity="left"
+            android:breakStrategy="balanced"
+            android:textSize="19sp"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

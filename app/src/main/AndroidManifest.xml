@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.contact">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".displayevent"
+            android:parentActivityName=".eventhome" >
+
+        </activity>
+        <activity android:name=".clusterhome" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".display" />
+        <activity android:name=".upload" />
+        <activity android:name=".home" />
+        <activity android:name=".adminlogin" />
+        <activity android:name=".category" />
+        <activity
+            android:name=".teamhome"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".eventhome"
+            android:parentActivityName=".home" />
+        <activity android:name=".uploadevent" />
+        <activity
+            android:name=".eventdetails"
+            android:parentActivityName=".eventhome" />
+        <activity android:name=".alumini" />
+        <activity android:name=".about" />
+    </application>
+
+</manifest>
